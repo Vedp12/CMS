@@ -25,7 +25,7 @@
     border: 2px solid purple;
 }
 
-.bk{
+.bk {
     border: 2px solid black;
 }
 
@@ -180,6 +180,12 @@
 
 .sign-in-section {}
 
+.singin-page{
+    border: 1px solid rgba(0, 0, 0, 0.26);
+}
+
+
+
 .left-img-section {
     min-height: 550px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
@@ -290,6 +296,10 @@
 
 /* --------------------------------------------------------------dashboard-section------------------------------------------------------- */
 
+.dasboard-section{
+    border: 1px solid rgba(0, 0, 0, 0.26); 
+}
+
 .mian-dashboard {}
 
 .left-button-section {
@@ -312,7 +322,7 @@
     color: black;
     background-color: white;
     font-size: 20px;
-    border:none;
+    border: none;
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;
@@ -320,18 +330,18 @@
     transition: .2s all linear;
 }
 
-.bi-house-door:hover{
-    background-color:#87cefa;
-    color:white;
+.bi-house-door:hover {
+    background-color: #87cefa;
+    color: white;
     transition: .2s all linear;
-    
+
 }
 
-.profile-btn{
+.profile-btn {
     width: 40px;
     height: 40px;
     background-color: white;
-    padding:5px 5px ;
+    padding: 5px 5px;
     border-radius: 10px;
     margin-right: 5px;
     transition: .2s all linear;
@@ -427,7 +437,7 @@
 .students-next-section button i:hover {
     display: flex;
     text-decoration: none;
-    color:#87cefa;
+    color: #87cefa;
     background-color: white;
     border: 4px solid #87cefa;
     transition: .2s all linear;
@@ -486,7 +496,7 @@
 .teacher-next-section button i:hover {
     display: flex;
     text-decoration: none;
-    color:#87cefa;
+    color: #87cefa;
     background-color: white;
     border: 4px solid #87cefa;
     transition: .2s all linear;
@@ -545,7 +555,7 @@
 .admin-next-section button i:hover {
     display: flex;
     text-decoration: none;
-    color:#87cefa;
+    color: #87cefa;
     background-color: white;
     border: 4px solid #87cefa;
     transition: .2s all linear;
@@ -606,7 +616,7 @@
 .card-next-section button i:hover {
     display: flex;
     text-decoration: none;
-    color:#87cefa;
+    color: #87cefa;
     background-color: white;
     border: 4px solid #87cefa;
     transition: .2s all linear;
@@ -615,9 +625,14 @@
 
 /* ------------------------------------------------access-page-------------------------------------------------------------------------- */
 
+
+.access-dasbord-section{
+    border: 1px solid rgba(0, 0, 0, 0.26);
+}
+
 /* ---------------------pop-key-section------------------- */
 
-#key-popUp{
+#key-popUp {
     width: 400px;
     min-height: 400px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
@@ -631,20 +646,21 @@
     padding: 10px;
     gap: 5px;
 }
+
 #key-popUp.showPopUp {
     display: flex !important;
     z-index: 1111111;
     flex-direction: column;
 }
 
-#key-popUp h2{
+#key-popUp h2 {
 
     font-family: Academy;
     font-size: 22px;
 
 }
 
-#key-popUp p{
+#key-popUp p {
     font-family: Academy;
     font-size: 10px;
     text-align: center;
@@ -656,28 +672,28 @@
 /*----------------- */
 
 
-#cancel-button{
+#cancel-button {
     display: flex;
     position: absolute;
     margin: 0;
-   padding: 2px 10px;
-   border: 4px solid black;
-   border-radius: 10px;
-   background-color: white;
-   color: black;
+    padding: 2px 10px;
+    border: 4px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
     top: 20px;
     right: 20px;
     transition: .2s all linear;
 }
 
-#cancel-button:hover{
+#cancel-button:hover {
     color: white;
     background-color: red;
     border: 4px solid red;
     transition: .2s all linear;
 }
 
-#accessKeyInput{
+#accessKeyInput {
     width: 84%;
     height: 40px;
     display: flex;
@@ -686,7 +702,7 @@
     font-size: 13px;
 }
 
-#accessbutton{
+#accessbutton {
     display: flex;
     padding: 8px 20px;
     background-color: black;
@@ -696,7 +712,7 @@
 
 /* ------------------------------------------------------profile-page---------------------------------------------------------------------- */
 
-.left-access-section{
+.left-access-section {
     background-color: black;
 }
 
@@ -718,19 +734,19 @@
 
 }
 
-#key-access  {
+#key-access {
     padding: 10px 30px;
     font-family: Academy;
     font-size: 18px;
-    background-color:white;
-    color: rgb(93, 121, 244) ;
+    background-color: white;
+    color: rgb(93, 121, 244);
     border-radius: 5px;
     border: 2px solid rgb(93, 121, 244);
     transition: .2s all linear;
 }
 
 #key-access:hover {
-  
+
     padding: 10px 30px;
     font-family: Academy;
     font-size: 18px;
@@ -742,12 +758,12 @@
 }
 
 
-.bottom-ras-section h1{
+.bottom-ras-section h1 {
     font-size: 50px;
     font-family: Academy;
 }
 
-.bottom-ras-section p{
+.bottom-ras-section p {
     font-size: 16px;
     font-family: Academy;
     text-align: center;
@@ -765,41 +781,42 @@
 .profile-section {
     width: 100%;
     min-height: 87%;
+    border: 1px solid rgba(0, 0, 0, 0.26);
 
 }
 
-.profile-photo-setion{
+.profile-photo-setion {
     min-height: 100%;
     position: relative;
 
 
 }
 
-.profile-photo-setion img{
+.profile-photo-setion img {
     width: 260px;
     height: 260px;
     border-radius: 50%;
     background-color: rgb(241, 240, 240);
-   
- object-fit: scale-down;
+
+    object-fit: scale-down;
     object-position: center;
-    
+
 }
 
-.profile-photo-setion h1{
+.profile-photo-setion h1 {
     font-family: Academy;
-    color:black;
+    color: black;
     font-size: 50px;
 }
 
-.profile-photo-setion h3{
+.profile-photo-setion h3 {
     font-family: Academy;
-    color:rgba(0, 0, 0, 0.628);
+    color: rgba(0, 0, 0, 0.628);
     font-size: 15px;
     /* letter-spacing: 1px; */
 }
 
-.log-out-btn{
+.log-out-btn {
     padding: 10px 20px;
     background-color: black;
     color: white;
@@ -813,11 +830,209 @@
 
 }
 
-.log-out-btn:hover{
-background-color:white;
-color:black;
-border: 2px solid black;    
-transition: .3s all linear;
+.log-out-btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition: .3s all linear;
+}
+
+/* ----------------------------student-portal-section------------------------------------------ */
+
+.student-portal-section {
+    height: 100vh;
+    border: 1px solid rgba(0, 0, 0, 0.26);
 }
 
 
+.left-button-section{
+
+    height: 100vh !important;
+}
+
+.top-lss-section {
+    min-height: 13%;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.26);
+    position: relative;
+    top: 0;
+}
+
+.bottom-lss-section {
+    min-height: 87%;
+    width: 100%;
+}
+
+.top-sss-section {
+    width: 100%;
+    min-height: 13%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+}
+
+.student-stuff-section {
+    width: 100%;
+    min-height: 87%;
+  
+    overflow: auto;
+
+}
+
+.student-icon-section {
+    padding-left: 30%;
+    min-height: 450px;
+    gap: 30px;
+}
+
+.right-choose-section{
+height: 100vh !important;
+ scroll-behavior: smooth;
+}
+
+.bi-globe-asia-australia {
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    margin-right: 5px;
+    transition: .2s all linear;
+}
+
+.bi-globe-asia-australia:hover {
+    background-color: #87cefa;
+    color: white;
+    transition: .2s all linear;
+
+}
+
+
+.bi-journals {
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    margin-right: 5px;
+    transition: .2s all linear;
+}
+
+.bi-journals:hover {
+    background-color: #87cefa;
+    color: white;
+    transition: .2s all linear;
+
+}
+
+.bi-people-fill {
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    margin-right: 5px;
+    transition: .2s all linear;
+}
+
+.bi-people-fill:hover {
+    background-color: #87cefa;
+    color: white;
+    transition: .2s all linear;
+
+}
+
+.bi-chat-left-dots {
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    margin-right: 5px;
+    transition: .2s all linear;
+}
+
+.bi-chat-left-dots:hover {
+    background-color: #87cefa;
+    color: white;
+    transition: .2s all linear;
+
+}
+
+/* ---------------------------------info-card-section ------------------------------------------*/
+.info-card-1{
+    min-height: 300px;
+    box-shadow: rgba(60, 64, 67, 0.426) 0px 1px 2px 0px, rgba(60, 64, 67, 0.316) 0px 1px 3px 1px;
+    
+}
+.igf-info-part{
+    width: 100%;
+    height: 230px;
+    /* border-top-left-radius: 20px; */
+
+}
+
+.igf-info-part h1{
+    font-size: 40px;
+    font-family: Academy;
+}
+
+.igf-img-part{
+    width: 100%;
+    height: 70px;
+    background-image: url(img/1033135.png);
+}
+
+.igf-img-part button {
+    border: none;
+    border-radius: 10px;
+}
+
+
+.igf-img-part button i {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    transition: .2s all linear;
+}
+
+.igf-img-part button i:hover {
+    display: flex;
+    text-decoration: none;
+    color: #87cefa;
+    background-color: white;
+    border: 4px solid #87cefa;
+    transition: .2s all linear;
+
+}
+
+.igf-info-part img{
+    width: 90px !important;
+  
+}
+
+/* ------------------------------------------------Teacher-portal-section-------------------------------------------------- */
+
+.teacher-portal-section{
+    height: 100vh;
+    border: 1px solid rgba(0, 0, 0, 0.26);  
+}
+
+.teacher-stuff-section{
+    width: 100%;
+    min-height: 87%;
+  
+    overflow: auto; 
+}

@@ -1,13 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>student-portal</title>
+    <title>Student-portal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="input.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
+
 <body>
 
-    <h1>Hello student</h1>
-    
+    <div class="student-portal-section container-fluid d-flex align-items-center justify-content-center  p-0 m-0 ">
+
+        <div class="main-dasboard col-lg-12 d-flex align-items-center justify-content-center full-h  p-0 m-0">
+
+            <div class="row col-lg-12 ">
+
+                <!-- ---------------------------------------------left-button-section-------------------------------------------------- -->
+
+                <div
+                    class="left-button-section col-lg-2 d-flex align-items-center justify-content-center flex-column p-0 m-0 ">
+
+                    <div class="top-lss-section d-flex align-items-center justify-content-center ">
+
+                        <a style="font-family: Academy; font-size: 27px; color: white;" class="navbar-brand"
+                            href="#"><img style="width: 55px;" src="img/nest.png" alt=""> StudyNest</a>
+
+                    </div>
+
+                    <div class="bottom-lss-section d-flex align-items-start justify-content-center  ">
+
+                        <div
+                            class="student-icon-section w-100  d-flex align-items-start justify-content-center flex-column  ">
+
+                            <a style="color: white; text-decoration: none;" href="dashboard-section.html"><i
+                                    class="bi bi-house-door"></i> Home</a>
+
+                            <a style="color: white; text-decoration: none;" href="dashboard-section.html"><i
+                                    class="bi bi-globe-asia-australia"></i>Stream</a>
+
+                            <a style="color: white; text-decoration: none;" href="dashboard-section.html"><i
+                                    class="bi bi-journals"></i>Syllabus</a>
+
+                            <a style="color: white; text-decoration: none;" href="dashboard-section.html"><i
+                                    class="bi bi-people-fill"></i>People</a>
+
+                            <a style="color: white; text-decoration: none;" href="dashboard-section.html"><i
+                                    class="bi bi-chat-left-dots"></i>Live chat</a>
+
+                            <a style="color: white; text-decoration: none;" href="profile.html"><img class="profile-btn"
+                                    src="img/man.png" alt="">Profile</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- -------------------------------------------------right-choose-section--------------------------------------------- -->
+
+                <div
+                    class="right-choose-section col-lg-10  d-flex align-items-center justify-content-center flex-column p-0 m-0 ">
+
+                    <div class="top-sss-section d-flex align-items-center justify-content-center ">
+
+                        <!-- <h1 class="text-center">Dashboard</h1> -->
+
+                    </div>
+
+                    <div
+                        class="student-stuff-section d-flex align-items-center justify-content-center flex-wrap gap-5 py-5  ">
+
+                        <!--  -->
+
+                        <div
+                            class="info-card-1 col-lg-5 d-flex align-items-center justify-content-center flex-column rounded-5 ">
+
+                            <div
+                                class="igf-info-part d-flex align-items-center justify-content-start flex-row  rounded-top-5 gap-3 px-5 ">
+
+                                <img src="img/earth.png" alt="">
+
+                                <h1>STREAM</h1>
+
+                            </div>
+
+
+                            <div
+                                class="igf-img-part d-flex align-items-center justify-content-end p-3  rounded-bottom-5 ">
+
+
+                                <button><a style="text-decoration: none;" href=""><i
+                                            class="bi bi-arrow-right"></i></a></button>
+
+                            </div>
+
+                        </div>
+
+
+                        <div
+                            class="info-card-1 col-lg-5 d-flex align-items-center justify-content-center flex-column rounded-5 ">
+
+                            <div
+                                class="igf-info-part d-flex align-items-center justify-content-start flex-row  rounded-top-5 gap-3 px-5 ">
+
+                                <img src="img/archive.png" alt="">
+
+                                <h1>SYLLABUS</h1>
+
+                            </div>
+
+
+                            <div
+                                class="igf-img-part d-flex align-items-center justify-content-end p-3  rounded-bottom-5 ">
+
+
+                                <button><a style="text-decoration: none;" href=""><i
+                                            class="bi bi-arrow-right"></i></a></button>
+
+                            </div>
+
+                        </div>
+
+                        <div
+                            class="info-card-1 col-lg-5 d-flex align-items-center justify-content-center flex-column rounded-5 ">
+
+                            <div
+                                class="igf-info-part d-flex align-items-center justify-content-start flex-row  rounded-top-5 gap-3 px-5 ">
+
+                                <img src="img/high-five.png" alt="">
+
+                                <h1>PEOPLE</h1>
+
+                            </div>
+
+
+                            <div
+                                class="igf-img-part d-flex align-items-center justify-content-end p-3  rounded-bottom-5 ">
+
+
+                                <button><a style="text-decoration: none;" href=""><i
+                                            class="bi bi-arrow-right"></i></a></button>
+
+                            </div>
+
+                        </div>
+
+                        <div
+                            class="info-card-1 col-lg-5 d-flex align-items-center justify-content-center flex-column rounded-5 ">
+
+                            <div
+                                class="igf-info-part d-flex align-items-center justify-content-start flex-row  rounded-top-5 gap-3 px-5 ">
+
+                                <img src="img/video-message.png" alt="">
+
+                                <h1>LIVE CHAT</h1>
+
+                            </div>
+
+
+                            <div
+                                class="igf-img-part d-flex align-items-center justify-content-end p-3  rounded-bottom-5 ">
+
+
+                                <button><a style="text-decoration: none;" href=""><i
+                                            class="bi bi-arrow-right"></i></a></button>
+
+                            </div>
+
+                        </div>
+
+                        <div
+                            class="info-card-1 col-lg-5 d-flex align-items-center justify-content-center flex-column rounded-5 ">
+
+                            <div
+                                class="igf-info-part d-flex align-items-center justify-content-start flex-row  rounded-top-5 gap-3 px-5 ">
+
+                                <img src="img/attendance.png" alt="">
+
+                                <h1>ATTENDANCE</h1>
+
+                            </div>
+
+
+                            <div
+                                class="igf-img-part d-flex align-items-center justify-content-end p-3  rounded-bottom-5 ">
+
+
+                                <button><a style="text-decoration: none;" href=""><i
+                                            class="bi bi-arrow-right"></i></a></button>
+
+                            </div>
+
+                        </div>
+
+                        <div
+                            class="info-card-1 col-lg-5 d-flex align-items-center justify-content-center flex-column rounded-5 ">
+
+                            <div
+                                class="igf-info-part d-flex align-items-center justify-content-start flex-row  rounded-top-5 gap-3 px-5 ">
+
+                                <img src="img/exam.png" alt="">
+
+                                <h1>ONLINE TEST</h1>
+
+                            </div>
+
+
+                            <div
+                                class="igf-img-part d-flex align-items-center justify-content-end p-3  rounded-bottom-5 ">
+
+
+                                <button><a style="text-decoration: none;" href=""><i
+                                            class="bi bi-arrow-right"></i></a></button>
+
+                            </div>
+
+                        </div>
+
+                        <div
+                            class="info-card-1 col-lg-5 d-flex align-items-center justify-content-center flex-column rounded-5 ">
+
+                            <div
+                                class="igf-info-part d-flex align-items-center justify-content-start flex-row  rounded-top-5 gap-3 px-5 ">
+
+                                <img src="img/calendar.png" alt="">
+
+                                <h1>CALENDAR</h1>
+
+                            </div>
+
+
+                            <div
+                                class="igf-img-part d-flex align-items-center justify-content-end p-3  rounded-bottom-5 ">
+
+
+                                <button><a style="text-decoration: none;" href=""><i
+                                            class="bi bi-arrow-right"></i></a></button>
+
+                            </div>
+
+                        </div>
+
+                        <div
+                        class="info-card-1 col-lg-5 d-flex align-items-center justify-content-center flex-column rounded-5 ">
+
+                        <div
+                            class="igf-info-part d-flex align-items-center justify-content-center flex-row  rounded-top-5 gap-3 px-5 ">
+
+                            <a href=""><i style="font-size: 80px;" class="bi bi-cloud-plus"></i></a>
+
+                        </div>
+
+
+                        <div
+                            class="igf-img-part d-flex align-items-center justify-content-end p-3  rounded-bottom-5 ">
+
+<!-- 
+                            <button><a style="text-decoration: none;" href=""><i
+                                        class="bi bi-arrow-right"></i></a></button> -->
+
+                        </div>
+
+                    </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <!--  -->
+
+    </div>
+
+
+
+
+
+    <!-- js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
