@@ -3,19 +3,19 @@
 document.addEventListener("DOMContentLoaded", function () {
 
   const signInForm = document.getElementById("signin-form");
-  const firstnameInput = document.getElementById("firstname-input");
-  const lastnameInput = document.getElementById("lastname-input");
+  const fullnameInput = document.getElementById("fullname-input");
+  // const lastnameInput = document.getElementById("lastname-input");
   const emailInput = document.getElementById("email-input");
   const passwordInput = document.getElementById("password-input");
   const termsCheckbox = document.querySelector("input[type='checkbox']");
 
 
 
-  firstnameInput.addEventListener("input", function () {
-    if (firstnameInput.value.trim() === "") {
-      firstnameInput.style.border = "2px solid red"
+  fullnameInput.addEventListener("input", function () {
+    if (fullnameInput.value.trim() === "") {
+      fullnameInput.style.border = "2px solid red"
     } else {
-      firstnameInput.style.border = "2px solid green"
+      fullnameInput.style.border = "2px solid green"
     }
 
   })
@@ -50,20 +50,20 @@ document.addEventListener("DOMContentLoaded", function () {
   signInForm.addEventListener("submit", function (event) {
     event.preventDefault(); // Prevent form submission
 
-    const firstname = firstnameInput.value.trim();
-    const lastname = lastnameInput.value.trim();
+    const fullname = fullnameInput.value.trim();
+    // const lastname = lastnameInput.value.trim();
     const email = emailInput.value.trim();
     const password = passwordInput.value.trim();
 
     let errors = [];
 
-    if (!firstname) {
-      errors.push("First name is required")
+    if (!fullname) {
+      errors.push("FULL name is required")
     }
 
-    if (!lastname) {
-      errors.push("last name is required")
-    }
+    // if (!lastname) {
+    //   errors.push("last name is required")
+    // }
 
     if (!validateEmail(email)) {
       errors.push("Invalid email address.");
@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Simulating form submission 
 
     setTimeout(() => {
-      window.location.href = "dashboard-section.html"; // Redirect to the dashboard 
+      window.location.href = "access-dashborad.html"; // Redirect to the dashboard 
     }, 1500);
 
   });
@@ -124,6 +124,144 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 });
+
+
+
+// -----------------------------sign-in-page--------------------------------------------------------
+
+// document.addEventListener("DOMContentLoaded", function () {
+//   const signInForm = document.getElementById("signin-form");
+//   const fullnameInput = document.getElementById("fullname-input");
+//   const emailInput = document.getElementById("email-input");
+//   const passwordInput = document.getElementById("password-input");
+//   const professionSelect = document.querySelector(".form-select");
+//   const termsCheckbox = document.querySelector("input[type='checkbox']");
+
+//   // Real-time Validation
+//   fullnameInput.addEventListener("input", function () {
+//     validateField(fullnameInput);
+//   });
+
+//   emailInput.addEventListener("input", function () {
+//     validateEmailField(emailInput);
+//   });
+
+//   passwordInput.addEventListener("input", function () {
+//     validatePasswordField(passwordInput);
+//   });
+
+//   professionSelect.addEventListener("change", function () {
+//     validateProfession(professionSelect);
+//   });
+
+//   // Form Submission Handling
+//   signInForm.addEventListener("submit", function (event) {
+//     event.preventDefault(); // Prevent form submission
+
+//     const fullname = fullnameInput.value.trim();
+//     const email = emailInput.value.trim();
+//     const password = passwordInput.value.trim();
+//     const profession = professionSelect.value;
+
+//     let errors = [];
+
+//     if (!fullname) {
+//       errors.push("Full name is required.");
+//     }
+
+//     if (!validateEmail(email)) {
+//       errors.push("Invalid email address.");
+//     }
+
+//     if (password.length < 6) {
+//       errors.push("Password must be at least 6 characters long.");
+//     }
+
+//     if (profession === "Select your profession") {
+//       errors.push("Please select a valid profession.");
+//     }
+
+//     if (!termsCheckbox.checked) {
+//       errors.push("You must agree to the Terms and Conditions.");
+//     }
+
+//     if (errors.length > 0) {
+//       displayMessage(errors.join("<br>"), "error");
+//       return;
+//     }
+
+//     displayMessage("Sign-in successful! Redirecting...", "success");
+
+//     // Simulating form submission
+//     setTimeout(() => {
+//       window.location.href = "access-dashborad.html"; // Redirect to the dashboard 
+//     }, 1500);
+//   });
+
+//   // Utility Functions
+//   function validateField(input) {
+//     if (input.value.trim() === "") {
+//       input.style.border = "2px solid red";
+//     } else {
+//       input.style.border = "2px solid green";
+//     }
+//   }
+
+//   function validateEmailField(input) {
+//     if (!validateEmail(input.value)) {
+//       input.style.border = "2px solid red";
+//     } else {
+//       input.style.border = "2px solid green";
+//     }
+//   }
+
+//   function validatePasswordField(input) {
+//     if (input.value.length < 6) {
+//       input.style.border = "2px solid red";
+//     } else {
+//       input.style.border = "2px solid green";
+//     }
+//   }
+
+//   function validateProfession(select) {
+//     if (select.value === "Select your profession") {
+//       select.style.border = "2px solid red";
+//     } else {
+//       select.style.border = "2px solid green";
+//     }
+//   }
+
+//   function validateEmail(email) {
+//     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+//     return emailRegex.test(email);
+//   }
+
+//   function displayMessage(message, type) {
+//     let messageBox = document.getElementById("message-box");
+
+//     if (!messageBox) {
+//       messageBox = document.createElement("div");
+//       messageBox.id = "message-box";
+//       signInForm.appendChild(messageBox);
+//     }
+
+//     messageBox.innerHTML = message;
+//     messageBox.style.padding = "10px";
+//     messageBox.style.marginTop = "10px";
+//     messageBox.style.textAlign = "center";
+//     messageBox.style.borderRadius = "5px";
+//     messageBox.style.fontWeight = "bold";
+
+//     if (type === "error") {
+//       messageBox.style.color = "red";
+//       messageBox.style.background = "#ffdada";
+//     } else {
+//       messageBox.style.color = "green";
+//       messageBox.style.background = "#d4f8d4";
+//     }
+//   }
+// });
+
 
 
 

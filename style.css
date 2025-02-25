@@ -220,17 +220,17 @@
 }
 
 
-.first-name-in {
+.full-name-in {
     padding: 10px 170px 10px 10px;
     border: 1px solid black;
     font-family: Academy;
 }
 
-.last-name-in {
+/* .last-name-in {
     padding: 10px 170px 10px 10px;
     border: 1px solid black;
     font-family: Academy;
-}
+} */
 
 .email-in {
     padding: 10px 170px 10px 10px;
@@ -244,12 +244,23 @@
     font-family: Academy;
 }
 
+.form-select{
+    width: 78% !important;
+    border:1px solid black !important ;
+}
+
+.form-select option{
+    font-family: Academy !important;
+    font-size: 13px; 
+}
+
 /* ---------------------- */
 
 .signin-form.incorrect input {
     display: flex;
     border: 2px solid red !important;
 }
+
 
 /* ------------------------ */
 
