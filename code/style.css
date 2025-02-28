@@ -24,8 +24,8 @@
 .pp {
     border: 2px solid purple;
 }
-.bk{
 
+.bk{
     border: 2px solid black;
 }
 
@@ -169,89 +169,6 @@
     text-decoration: none;
 }
 
-
-.min-us-container{
-    min-height: 500px !important;
-  
-    border: 2px solid red;
-}
-
-.photo-us-section{
-  
-    display: flex;
-   
-}
-
-.photo-us-section img{
-
-}
-
-.min-us-section{
-    
-}
-
-/* footer-section */
-
-.footer-section{
-    height:auto ;
-    background-color: rgb(22, 19, 19);
-  }
-  
-  .about-studynest span {
-  
-      color: white;
-      font-family: Academy;
-      font-size: 18px;
-  
-  }
-  
-  .about-studynest p {
-  
-      color: rgb(255, 255, 255);
-      font-family: Academy;
-      font-size: 13px;
-      width: 79%;
-  
-  }
-  
-  .connected-us{
-      color: white;
-  }
-  
-  .connected-us span {
-      font-family: Academy;
-      font-size: 18px;    
-      margin-bottom: 10px;
-  }
-  
-  .connected-us h6{
-      font-size: 10px;
-      color: rgba(255, 255, 255, 0.642);
-      display: flex;
-      align-items: center;
-      justify-content: center;    
-  }
-  
-  .contact-info{
-      color: white;
-  }
-  
-  .contact-info span{
-      font-family: Academy;
-      font-size: 18px;    
-      margin-bottom: 10px;
-  
-  }
-  
-  .contact-info h6{
-     
-          font-size: 15px;
-          color: rgba(255, 255, 255, 0.642);
-          display: flex;
-          align-items: center;
-          justify-content: center;  
-  }
-
 /* ------------------------------------------------------------- sign-in ------------------------------------------------------------------------------ */
 
 
@@ -261,12 +178,7 @@
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
-
 .sign-in-section {}
-
-.singin-page{
-    border: 1px solid rgba(0, 0, 0, 0.26);
-}
 
 .left-img-section {
     min-height: 550px;
@@ -302,29 +214,17 @@
 }
 
 
-
-.full-name-in {
-
 .first-name-in {
-
     padding: 10px 170px 10px 10px;
     border: 1px solid black;
     font-family: Academy;
 }
-
-/* .last-name-in {
-    padding: 10px 170px 10px 10px;
-    border: 1px solid black;
-    font-family: Academy;
-} */
 
 .last-name-in {
     padding: 10px 170px 10px 10px;
     border: 1px solid black;
     font-family: Academy;
 }
-
-  
 
 .email-in {
     padding: 10px 170px 10px 10px;
@@ -338,21 +238,14 @@
     font-family: Academy;
 }
 
-.form-select{
-    width: 78% !important;
-    border:1px solid black !important ;
-}
-
-.form-select option{
-    font-family: Academy !important;
-    font-size: 13px; 
-}
+/* ---------------------- */
 
 .signin-form.incorrect input {
     display: flex;
     border: 2px solid red !important;
 }
 
+/* ------------------------ */
 
 .right-text-section {
     font-size: 13px;
@@ -397,15 +290,7 @@
 
 /* --------------------------------------------------------------dashboard-section------------------------------------------------------- */
 
-
-.dasboard-section{
-    border: 1px solid rgba(0, 0, 0, 0.26); 
-}
-
 .mian-dashboard {}
-
-/* .mian-dashboard {} */
-
 
 .left-button-section {
     background-color: black;
@@ -422,13 +307,11 @@
     width: 100%;
 }
 
-
 .bi-house-door {
     color: black;
     background-color: white;
     font-size: 20px;
-
-    border: none;
+    border:none;
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;
@@ -436,19 +319,6 @@
     transition: .2s all linear;
 }
 
-.bi-house-door:hover {
-    background-color: #87cefa;
-    color: white;
-    transition: .2s all linear;
-
-}
-
-.profile-btn {
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    padding: 5px 5px;
-  }
 .bi-house-door:hover{
     background-color:#87cefa;
     color:white;
@@ -456,26 +326,8 @@
     
 }
 
-.profile-btn{
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    padding:5px 5px ;
-    border-radius: 10px;
-    margin-right: 5px;
-    transition: .2s all linear;
-    border: none;
-}
 
-
-/* .profile-btn:hover{
-    background-color:#87cefa ;
-    transition: .2s all linear;
-  
-} */
-
-
-/* .bi-person-circle {
+.bi-person-circle {
     color: black;
     background-color: white;
     font-size: 20px;
@@ -491,8 +343,7 @@
     background-color:#87cefa;
     color:white;
     transition: .2s all linear;
-} */
-
+}
 
 .top-rcs-section {
     width: 100%;
@@ -532,7 +383,7 @@
 .students-next-section {
     width: 100%;
     height: 20%;
-    background-image: url(img/patern-2.jpg);
+    background-image: url(patern-2.jpg);
     background-position: center;
 }
 
@@ -558,7 +409,7 @@
 .students-next-section button i:hover {
     display: flex;
     text-decoration: none;
-    color: #87cefa;
+    color:#87cefa;
     background-color: white;
     border: 4px solid #87cefa;
     transition: .2s all linear;
@@ -591,7 +442,7 @@
 .teacher-next-section {
     width: 100%;
     height: 20%;
-    background-image: url(img/patern-2.jpg);
+    background-image: url(patern-2.jpg);
     background-position: center;
 }
 
@@ -617,7 +468,7 @@
 .teacher-next-section button i:hover {
     display: flex;
     text-decoration: none;
-    color: #87cefa;
+    color:#87cefa;
     background-color: white;
     border: 4px solid #87cefa;
     transition: .2s all linear;
@@ -650,7 +501,7 @@
 .admin-next-section {
     width: 100%;
     height: 20%;
-    background-image: url(img/patern-2.jpg);
+    background-image: url(patern-2.jpg);
     background-position: center;
 }
 
@@ -676,7 +527,7 @@
 .admin-next-section button i:hover {
     display: flex;
     text-decoration: none;
-    color: #87cefa;
+    color:#87cefa;
     background-color: white;
     border: 4px solid #87cefa;
     transition: .2s all linear;
@@ -711,7 +562,7 @@
 .card-next-section {
     width: 100%;
     height: 20%;
-    background-image: url(img/patern-2.jpg);
+    background-image: url(patern-2.jpg);
     background-position: center;
 }
 
@@ -737,25 +588,18 @@
 .card-next-section button i:hover {
     display: flex;
     text-decoration: none;
-    color: #87cefa;
+    color:#87cefa;
     background-color: white;
     border: 4px solid #87cefa;
     transition: .2s all linear;
 
 }
 
-/* ------------------------------------------------access-page-------------------------------------------------------------------------- */
+/* -----------------------------------------------pop-key-section----------------------------------------------------------- */
 
-
-
-.access-dasbord-section{
-    border: 1px solid rgba(0, 0, 0, 0.26);
-}
-/* ---------------------pop-key-section------------------- */
 #key-popUp{
-
     width: 400px;
-    min-height: 400px;
+    min-height: 300px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     display: none !important;
     z-index: 1111111;
@@ -765,7 +609,6 @@
     position: absolute;
     background-color: white;
     padding: 10px;
-    gap: 5px;
 }
 #key-popUp.showPopUp {
     display: flex !important;
@@ -773,7 +616,7 @@
     flex-direction: column;
 }
 
-#key-popUp h2{
+#key-popUp h3{
 
     font-family: Academy;
     font-size: 22px;
@@ -781,35 +624,27 @@
 }
 
 #key-popUp p{
-
     font-family: Academy;
     font-size: 10px;
     text-align: center;
     color: rgba(0, 0, 0, 0.658);
-    width: 90%;
 }
 
-
-/*----------------- */
-
-
 #cancel-button{
-
     display: flex;
     position: absolute;
     margin: 0;
-    padding: 2px 10px;
-    border: 4px solid black;
-    border-radius: 10px;
-    background-color: white;
-    color: black;
+   padding: 2px 10px;
+   border: 4px solid black;
+   border-radius: 10px;
+   background-color: white;
+   color: black;
     top: 20px;
     right: 20px;
     transition: .2s all linear;
 }
 
 #cancel-button:hover{
-
     color: white;
     background-color: red;
     border: 4px solid red;
@@ -817,8 +652,7 @@
 }
 
 #accessKeyInput{
-
-    width: 84%;
+    width: 82%;
     height: 40px;
     display: flex;
     padding: 10px 5px;
@@ -827,368 +661,9 @@
 }
 
 #accessbutton{
-
     display: flex;
     padding: 8px 20px;
     background-color: black;
     color: white;
     border: none;
 }
-
-/* ------------------------------------------------------profile-page---------------------------------------------------------------------- */
-
-.left-access-section{
-
-    background-color: black;
-}
-
-.top-las-section {
-    min-height: 13%;
-    width: 100%;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.26);
-}
-
-.top-ras-section {
-    width: 100%;
-    min-height: 13%;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
-}
-
-.bottom-ras-section {
-    width: 100%;
-    min-height: 87%;
-
-}
-
-
-#key-access  {
-    padding: 10px 30px;
-    font-family: Academy;
-    font-size: 18px;
-    background-color:white;
-    color: rgb(93, 121, 244) ;
-    border-radius: 5px;
-    border: 2px solid rgb(93, 121, 244);
-    transition: .2s all linear;
-}
-
-#key-access:hover {
-    padding: 10px 30px;
-    font-family: Academy;
-    font-size: 18px;
-    background-color: rgb(93, 121, 244);
-    color: white;
-    border-radius: 5px;
-    border: 2px solid rgb(93, 121, 244);
-    transition: .2s all linear;
-}
-
-
-.bottom-ras-section h1{
-
-    font-size: 50px;
-    font-family: Academy;
-}
-
-.bottom-ras-section p{
-    font-size: 16px;
-    font-family: Academy;
-    text-align: center;
-    width: 70%;
-}
-
-/* ---------------profile-section------------- */
-
-.top-rps-section {
-    width: 100%;
-    min-height: 13%;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
-}
-
-.profile-section {
-    width: 100%;
-    min-height: 87%;
-
-    border: 1px solid rgba(0, 0, 0, 0.26);
-
-}
-
-.profile-photo-setion{
-
-    min-height: 100%;
-    position: relative;
-
-
-}
-
-.profile-photo-setion img{
-
-    width: 260px;
-    height: 260px;
-    border-radius: 50%;
-    background-color: rgb(241, 240, 240);
-
-
-    object-fit: scale-down;
-    object-position: center;
-
-}
-
-.profile-photo-setion h1 {
-    font-family: Academy;
-    color: black;
-    font-size: 50px;
-}
-
-.profile-photo-setion h3 {
-    font-family: Academy;
-    color: rgba(0, 0, 0, 0.628);
-    object-fit: scale-down;
-    object-position: center;
-    
-}
-
-.profile-photo-setion h1{
-    font-family: Academy;
-    color:black;
-    font-size: 50px;
-}
-
-.profile-photo-setion h3{
-    font-family: Academy;
-    color:rgba(0, 0, 0, 0.628);
-    font-size: 15px;
-    /* letter-spacing: 1px; */
-}
-
-.log-out-btn{
-    padding: 10px 20px;
-    background-color: black;
-    color: white;
-    font-family: Academy;
-    border: 3px solid black;
-    border-radius: 10px;
-    transition: .2s all linear;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-
-}
-
-
-.log-out-btn:hover {
-    background-color: white;
-    color: black;
-    border: 2px solid black;
-    transition: .3s all linear;
-}
-
-/* ----------------------------student-portal-section------------------------------------------ */
-
-.student-portal-section {
-    height: 100vh;
-    border: 1px solid rgba(0, 0, 0, 0.26);
-}
-
-
-.left-button-section{
-
-    height: 100vh !important;
-}
-
-.top-lss-section {
-    min-height: 13%;
-    width: 100%;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.26);
-    position: relative;
-    top: 0;
-}
-
-.bottom-lss-section {
-    min-height: 87%;
-    width: 100%;
-}
-
-.top-sss-section {
-    width: 100%;
-    min-height: 13%;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
-}
-
-.student-stuff-section {
-    width: 100%;
-    min-height: 87%;
-  
-    overflow: auto;
-
-}
-
-.student-icon-section {
-    padding-left: 30%;
-    min-height: 450px;
-    gap: 30px;
-}
-
-.right-choose-section{
-height: 100vh !important;
- scroll-behavior: smooth;
-}
-
-.bi-globe-asia-australia {
-    color: black;
-    background-color: white;
-    font-size: 20px;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-weight: bolder;
-    margin-right: 5px;
-    transition: .2s all linear;
-}
-
-.bi-globe-asia-australia:hover {
-    background-color: #87cefa;
-    color: white;
-    transition: .2s all linear;
-
-}
-
-
-.bi-journals {
-    color: black;
-    background-color: white;
-    font-size: 20px;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-weight: bolder;
-    margin-right: 5px;
-    transition: .2s all linear;
-}
-
-.bi-journals:hover {
-    background-color: #87cefa;
-    color: white;
-    transition: .2s all linear;
-
-}
-
-.bi-people-fill {
-    color: black;
-    background-color: white;
-    font-size: 20px;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-weight: bolder;
-    margin-right: 5px;
-    transition: .2s all linear;
-}
-
-.bi-people-fill:hover {
-    background-color: #87cefa;
-    color: white;
-    transition: .2s all linear;
-
-}
-
-.bi-chat-left-dots {
-    color: black;
-    background-color: white;
-    font-size: 20px;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-weight: bolder;
-    margin-right: 5px;
-    transition: .2s all linear;
-}
-
-.bi-chat-left-dots:hover {
-    background-color: #87cefa;
-    color: white;
-    transition: .2s all linear;
-
-}
-
-/* ---------------------------------info-card-section ------------------------------------------*/
-.info-card-1{
-    min-height: 300px;
-    box-shadow: rgba(60, 64, 67, 0.426) 0px 1px 2px 0px, rgba(60, 64, 67, 0.316) 0px 1px 3px 1px;
-    
-}
-.igf-info-part{
-    width: 100%;
-    height: 230px;
-    /* border-top-left-radius: 20px; */
-
-}
-
-.igf-info-part h1{
-    font-size: 40px;
-    font-family: Academy;
-}
-
-.igf-img-part{
-    width: 100%;
-    height: 70px;
-    background-image: url(img/1033135.png);
-}
-
-.igf-img-part button {
-    border: none;
-    border-radius: 10px;
-}
-
-
-.igf-img-part button i {
-    display: flex;
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    font-weight: bolder;
-    background-color: white;
-    border: 4px solid black;
-    border-radius: 10px;
-    padding: 10px;
-    transition: .2s all linear;
-}
-
-.igf-img-part button i:hover {
-    display: flex;
-    text-decoration: none;
-    color: #87cefa;
-    background-color: white;
-    border: 4px solid #87cefa;
-    transition: .2s all linear;
-
-}
-
-.igf-info-part img{
-    width: 90px !important;
-  
-}
-
-/* ------------------------------------------------Teacher-portal-section-------------------------------------------------- */
-
-.teacher-portal-section{
-    height: 100vh;
-    border: 1px solid rgba(0, 0, 0, 0.26);  
-}
-
-.teacher-stuff-section{
-    width: 100%;
-    min-height: 87%;
-  
-    overflow: auto; 
-}
-
-.log-out-btn:hover{
-background-color:white;
-color:black;
-border: 2px solid black;    
-transition: .3s all linear;
-}
-
-
-
