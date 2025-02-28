@@ -24,8 +24,8 @@
 .pp {
     border: 2px solid purple;
 }
+.bk{
 
-.bk {
     border: 2px solid black;
 }
 
@@ -169,7 +169,6 @@
     text-decoration: none;
 }
 
-/* About-us */
 
 .min-us-container{
     min-height: 500px !important;
@@ -262,13 +261,12 @@
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
+
 .sign-in-section {}
 
 .singin-page{
     border: 1px solid rgba(0, 0, 0, 0.26);
 }
-
-
 
 .left-img-section {
     min-height: 550px;
@@ -304,7 +302,11 @@
 }
 
 
+
 .full-name-in {
+
+.first-name-in {
+
     padding: 10px 170px 10px 10px;
     border: 1px solid black;
     font-family: Academy;
@@ -315,6 +317,14 @@
     border: 1px solid black;
     font-family: Academy;
 } */
+
+.last-name-in {
+    padding: 10px 170px 10px 10px;
+    border: 1px solid black;
+    font-family: Academy;
+}
+
+  
 
 .email-in {
     padding: 10px 170px 10px 10px;
@@ -338,15 +348,11 @@
     font-size: 13px; 
 }
 
-/* ---------------------- */
-
 .signin-form.incorrect input {
     display: flex;
     border: 2px solid red !important;
 }
 
-
-/* ------------------------ */
 
 .right-text-section {
     font-size: 13px;
@@ -391,11 +397,15 @@
 
 /* --------------------------------------------------------------dashboard-section------------------------------------------------------- */
 
+
 .dasboard-section{
     border: 1px solid rgba(0, 0, 0, 0.26); 
 }
 
 .mian-dashboard {}
+
+/* .mian-dashboard {} */
+
 
 .left-button-section {
     background-color: black;
@@ -417,6 +427,7 @@
     color: black;
     background-color: white;
     font-size: 20px;
+
     border: none;
     padding: 5px 10px;
     border-radius: 10px;
@@ -437,11 +448,25 @@
     height: 40px;
     background-color: white;
     padding: 5px 5px;
+  }
+.bi-house-door:hover{
+    background-color:#87cefa;
+    color:white;
+    transition: .2s all linear;
+    
+}
+
+.profile-btn{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    padding:5px 5px ;
     border-radius: 10px;
     margin-right: 5px;
     transition: .2s all linear;
     border: none;
 }
+
 
 /* .profile-btn:hover{
     background-color:#87cefa ;
@@ -467,6 +492,7 @@
     color:white;
     transition: .2s all linear;
 } */
+
 
 .top-rcs-section {
     width: 100%;
@@ -721,13 +747,13 @@
 /* ------------------------------------------------access-page-------------------------------------------------------------------------- */
 
 
+
 .access-dasbord-section{
     border: 1px solid rgba(0, 0, 0, 0.26);
 }
-
 /* ---------------------pop-key-section------------------- */
+#key-popUp{
 
-#key-popUp {
     width: 400px;
     min-height: 400px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
@@ -741,21 +767,21 @@
     padding: 10px;
     gap: 5px;
 }
-
 #key-popUp.showPopUp {
     display: flex !important;
     z-index: 1111111;
     flex-direction: column;
 }
 
-#key-popUp h2 {
+#key-popUp h2{
 
     font-family: Academy;
     font-size: 22px;
 
 }
 
-#key-popUp p {
+#key-popUp p{
+
     font-family: Academy;
     font-size: 10px;
     text-align: center;
@@ -767,7 +793,8 @@
 /*----------------- */
 
 
-#cancel-button {
+#cancel-button{
+
     display: flex;
     position: absolute;
     margin: 0;
@@ -781,14 +808,16 @@
     transition: .2s all linear;
 }
 
-#cancel-button:hover {
+#cancel-button:hover{
+
     color: white;
     background-color: red;
     border: 4px solid red;
     transition: .2s all linear;
 }
 
-#accessKeyInput {
+#accessKeyInput{
+
     width: 84%;
     height: 40px;
     display: flex;
@@ -797,7 +826,8 @@
     font-size: 13px;
 }
 
-#accessbutton {
+#accessbutton{
+
     display: flex;
     padding: 8px 20px;
     background-color: black;
@@ -807,7 +837,8 @@
 
 /* ------------------------------------------------------profile-page---------------------------------------------------------------------- */
 
-.left-access-section {
+.left-access-section{
+
     background-color: black;
 }
 
@@ -829,19 +860,19 @@
 
 }
 
-#key-access {
+
+#key-access  {
     padding: 10px 30px;
     font-family: Academy;
     font-size: 18px;
-    background-color: white;
-    color: rgb(93, 121, 244);
+    background-color:white;
+    color: rgb(93, 121, 244) ;
     border-radius: 5px;
     border: 2px solid rgb(93, 121, 244);
     transition: .2s all linear;
 }
 
 #key-access:hover {
-
     padding: 10px 30px;
     font-family: Academy;
     font-size: 18px;
@@ -853,12 +884,13 @@
 }
 
 
-.bottom-ras-section h1 {
+.bottom-ras-section h1{
+
     font-size: 50px;
     font-family: Academy;
 }
 
-.bottom-ras-section p {
+.bottom-ras-section p{
     font-size: 16px;
     font-family: Academy;
     text-align: center;
@@ -876,22 +908,26 @@
 .profile-section {
     width: 100%;
     min-height: 87%;
+
     border: 1px solid rgba(0, 0, 0, 0.26);
 
 }
 
-.profile-photo-setion {
+.profile-photo-setion{
+
     min-height: 100%;
     position: relative;
 
 
 }
 
-.profile-photo-setion img {
+.profile-photo-setion img{
+
     width: 260px;
     height: 260px;
     border-radius: 50%;
     background-color: rgb(241, 240, 240);
+
 
     object-fit: scale-down;
     object-position: center;
@@ -907,11 +943,25 @@
 .profile-photo-setion h3 {
     font-family: Academy;
     color: rgba(0, 0, 0, 0.628);
+    object-fit: scale-down;
+    object-position: center;
+    
+}
+
+.profile-photo-setion h1{
+    font-family: Academy;
+    color:black;
+    font-size: 50px;
+}
+
+.profile-photo-setion h3{
+    font-family: Academy;
+    color:rgba(0, 0, 0, 0.628);
     font-size: 15px;
     /* letter-spacing: 1px; */
 }
 
-.log-out-btn {
+.log-out-btn{
     padding: 10px 20px;
     background-color: black;
     color: white;
@@ -924,6 +974,7 @@
     left: 20px;
 
 }
+
 
 .log-out-btn:hover {
     background-color: white;
@@ -1131,3 +1182,13 @@ height: 100vh !important;
   
     overflow: auto; 
 }
+
+.log-out-btn:hover{
+background-color:white;
+color:black;
+border: 2px solid black;    
+transition: .3s all linear;
+}
+
+
+

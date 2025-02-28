@@ -1,0 +1,30 @@
+To add or show images in your webpage in php you have to write some cmd
+
+CMds
+   -mkdir uploads
+   -chmod 755 uploads
+   -chmod 775 uploads
+   -sudo chown -R www-data:www-data uploads/
+   -ls -ld uploads
+      Now it shows (drwxr-xr-x  2 www-data www-data 4096 Feb 20 12:00 uploads)
+   -Optional
+      (     
+            <?php
+            if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_FILES["image"])) {
+                $uploadDir = "uploads/"; // Make sure this exists and is writable
+                $uploadFile = $uploadDir . basename($_FILES["image"]["name"]);
+
+                if (move_uploaded_file($_FILES["image"]["tmp_name"], $uploadFile)) {
+                    echo "File uploaded successfully: " . htmlspecialchars($uploadFile);
+                } else {
+                    echo "File upload failed.";
+                }
+            }
+            ?>
+
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+                <input type="file" name="image">
+                <button type="submit">Upload</button>
+            </form>
+      )
+      -sudo systemctl start apache2
