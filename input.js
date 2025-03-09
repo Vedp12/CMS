@@ -5,9 +5,14 @@
 //   const signInForm = document.getElementById("signin-form");
 //   const fullnameInput = document.getElementById("fullname-input");
 //   // const lastnameInput = document.getElementById("lastname-input");
+
+//   const firstnameInput = document.getElementById("firstname-input");
+//   const lastnameInput = document.getElementById("lastname-input");
+
 //   const emailInput = document.getElementById("email-input");
 //   const passwordInput = document.getElementById("password-input");
 //   const termsCheckbox = document.querySelector("input[type='checkbox']");
+
 
 
 
@@ -16,6 +21,12 @@
 //       fullnameInput.style.border = "2px solid red"
 //     } else {
 //       fullnameInput.style.border = "2px solid green"
+
+//   firstnameInput.addEventListener("input", function () {
+//     if (firstnameInput.value.trim() === "") {
+//       firstnameInput.style.border = "2px solid red"
+//     } else {
+//       firstnameInput.style.border = "2px solid green"
 //     }
 
 //   })
@@ -50,12 +61,18 @@
 //   signInForm.addEventListener("submit", function (event) {
 //     event.preventDefault(); // Prevent form submission
 
+
 //     const fullname = fullnameInput.value.trim();
 //     // const lastname = lastnameInput.value.trim();
+
+//     const firstname = firstnameInput.value.trim();
+//     const lastname = lastnameInput.value.trim();
+
 //     const email = emailInput.value.trim();
 //     const password = passwordInput.value.trim();
 
 //     let errors = [];
+
 
 //     if (!fullname) {
 //       errors.push("FULL name is required")
@@ -64,6 +81,15 @@
 //     // if (!lastname) {
 //     //   errors.push("last name is required")
 //     // }
+
+//     if (!firstname) {
+//       errors.push("First name is required")
+//     }
+
+//     if (!lastname) {
+//       errors.push("last name is required")
+//     }
+
 
 //     if (!validateEmail(email)) {
 //       errors.push("Invalid email address.");
@@ -87,7 +113,10 @@
 //     // Simulating form submission 
 
 //     setTimeout(() => {
+
 //       window.location.href = "access-dashborad.html"; // Redirect to the dashboard 
+//       window.location.href = "dashboard-section.html"; // Redirect to the dashboard 
+
 //     }, 1500);
 
 //   });
@@ -127,7 +156,12 @@
 
 
 
+<<<<<<< HEAD
 // -----------------------------sign-in-page--------------------------------------------------------
+=======
+
+// // -----------------------------sign-in-page--------------------------------------------------------
+>>>>>>> 23220c1a5cd90354fb059366bcc5e16e0198a6a1
 
 // document.addEventListener("DOMContentLoaded", function () {
 //   const signInForm = document.getElementById("signin-form");
@@ -265,7 +299,13 @@
 
 
 
+<<<<<<< HEAD
 // -----------------------------login-page------------------------------------------------------------
+=======
+
+
+// // -----------------------------login-page------------------------------------------------------------
+>>>>>>> 23220c1a5cd90354fb059366bcc5e16e0198a6a1
 
 // document.addEventListener("DOMContentLoaded", function () {
 //   const signInForm = document.getElementById("signin-form");
