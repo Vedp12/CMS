@@ -127,145 +127,145 @@
 
 
 
-// // -----------------------------sign-in-page--------------------------------------------------------
+// -----------------------------sign-in-page--------------------------------------------------------
 
-// // document.addEventListener("DOMContentLoaded", function () {
-// //   const signInForm = document.getElementById("signin-form");
-// //   const fullnameInput = document.getElementById("fullname-input");
-// //   const emailInput = document.getElementById("email-input");
-// //   const passwordInput = document.getElementById("password-input");
-// //   const professionSelect = document.querySelector(".form-select");
-// //   const termsCheckbox = document.querySelector("input[type='checkbox']");
+// document.addEventListener("DOMContentLoaded", function () {
+//   const signInForm = document.getElementById("signin-form");
+//   const fullnameInput = document.getElementById("fullname-input");
+//   const emailInput = document.getElementById("email-input");
+//   const passwordInput = document.getElementById("password-input");
+//   const professionSelect = document.querySelector(".form-select");
+//   const termsCheckbox = document.querySelector("input[type='checkbox']");
 
-// //   // Real-time Validation
-// //   fullnameInput.addEventListener("input", function () {
-// //     validateField(fullnameInput);
-// //   });
+//   // Real-time Validation
+//   fullnameInput.addEventListener("input", function () {
+//     validateField(fullnameInput);
+//   });
 
-// //   emailInput.addEventListener("input", function () {
-// //     validateEmailField(emailInput);
-// //   });
+//   emailInput.addEventListener("input", function () {
+//     validateEmailField(emailInput);
+//   });
 
-// //   passwordInput.addEventListener("input", function () {
-// //     validatePasswordField(passwordInput);
-// //   });
+//   passwordInput.addEventListener("input", function () {
+//     validatePasswordField(passwordInput);
+//   });
 
-// //   professionSelect.addEventListener("change", function () {
-// //     validateProfession(professionSelect);
-// //   });
+//   professionSelect.addEventListener("change", function () {
+//     validateProfession(professionSelect);
+//   });
 
-// //   // Form Submission Handling
-// //   signInForm.addEventListener("submit", function (event) {
-// //     event.preventDefault(); // Prevent form submission
+//   // Form Submission Handling
+//   signInForm.addEventListener("submit", function (event) {
+//     event.preventDefault(); // Prevent form submission
 
-// //     const fullname = fullnameInput.value.trim();
-// //     const email = emailInput.value.trim();
-// //     const password = passwordInput.value.trim();
-// //     const profession = professionSelect.value;
+//     const fullname = fullnameInput.value.trim();
+//     const email = emailInput.value.trim();
+//     const password = passwordInput.value.trim();
+//     const profession = professionSelect.value;
 
-// //     let errors = [];
+//     let errors = [];
 
-// //     if (!fullname) {
-// //       errors.push("Full name is required.");
-// //     }
+//     if (!fullname) {
+//       errors.push("Full name is required.");
+//     }
 
-// //     if (!validateEmail(email)) {
-// //       errors.push("Invalid email address.");
-// //     }
+//     if (!validateEmail(email)) {
+//       errors.push("Invalid email address.");
+//     }
 
-// //     if (password.length < 6) {
-// //       errors.push("Password must be at least 6 characters long.");
-// //     }
+//     if (password.length < 6) {
+//       errors.push("Password must be at least 6 characters long.");
+//     }
 
-// //     if (profession === "Select your profession") {
-// //       errors.push("Please select a valid profession.");
-// //     }
+//     if (profession === "Select your profession") {
+//       errors.push("Please select a valid profession.");
+//     }
 
-// //     if (!termsCheckbox.checked) {
-// //       errors.push("You must agree to the Terms and Conditions.");
-// //     }
+//     if (!termsCheckbox.checked) {
+//       errors.push("You must agree to the Terms and Conditions.");
+//     }
 
-// //     if (errors.length > 0) {
-// //       displayMessage(errors.join("<br>"), "error");
-// //       return;
-// //     }
+//     if (errors.length > 0) {
+//       displayMessage(errors.join("<br>"), "error");
+//       return;
+//     }
 
-// //     displayMessage("Sign-in successful! Redirecting...", "success");
+//     displayMessage("Sign-in successful! Redirecting...", "success");
 
-// //     // Simulating form submission
-// //     setTimeout(() => {
-// //       window.location.href = "access-dashborad.html"; // Redirect to the dashboard 
-// //     }, 1500);
-// //   });
+//     // Simulating form submission
+//     setTimeout(() => {
+//       window.location.href = "access-dashborad.html"; // Redirect to the dashboard 
+//     }, 1500);
+//   });
 
-// //   // Utility Functions
-// //   function validateField(input) {
-// //     if (input.value.trim() === "") {
-// //       input.style.border = "2px solid red";
-// //     } else {
-// //       input.style.border = "2px solid green";
-// //     }
-// //   }
+//   // Utility Functions
+//   function validateField(input) {
+//     if (input.value.trim() === "") {
+//       input.style.border = "2px solid red";
+//     } else {
+//       input.style.border = "2px solid green";
+//     }
+//   }
 
-// //   function validateEmailField(input) {
-// //     if (!validateEmail(input.value)) {
-// //       input.style.border = "2px solid red";
-// //     } else {
-// //       input.style.border = "2px solid green";
-// //     }
-// //   }
+//   function validateEmailField(input) {
+//     if (!validateEmail(input.value)) {
+//       input.style.border = "2px solid red";
+//     } else {
+//       input.style.border = "2px solid green";
+//     }
+//   }
 
-// //   function validatePasswordField(input) {
-// //     if (input.value.length < 6) {
-// //       input.style.border = "2px solid red";
-// //     } else {
-// //       input.style.border = "2px solid green";
-// //     }
-// //   }
+//   function validatePasswordField(input) {
+//     if (input.value.length < 6) {
+//       input.style.border = "2px solid red";
+//     } else {
+//       input.style.border = "2px solid green";
+//     }
+//   }
 
-// //   function validateProfession(select) {
-// //     if (select.value === "Select your profession") {
-// //       select.style.border = "2px solid red";
-// //     } else {
-// //       select.style.border = "2px solid green";
-// //     }
-// //   }
+//   function validateProfession(select) {
+//     if (select.value === "Select your profession") {
+//       select.style.border = "2px solid red";
+//     } else {
+//       select.style.border = "2px solid green";
+//     }
+//   }
 
-// //   function validateEmail(email) {
-// //     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-// //     return emailRegex.test(email);
-// //   }
+//   function validateEmail(email) {
+//     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+//     return emailRegex.test(email);
+//   }
 
-// //   function displayMessage(message, type) {
-// //     let messageBox = document.getElementById("message-box");
+//   function displayMessage(message, type) {
+//     let messageBox = document.getElementById("message-box");
 
-// //     if (!messageBox) {
-// //       messageBox = document.createElement("div");
-// //       messageBox.id = "message-box";
-// //       signInForm.appendChild(messageBox);
-// //     }
+//     if (!messageBox) {
+//       messageBox = document.createElement("div");
+//       messageBox.id = "message-box";
+//       signInForm.appendChild(messageBox);
+//     }
 
-// //     messageBox.innerHTML = message;
-// //     messageBox.style.padding = "10px";
-// //     messageBox.style.marginTop = "10px";
-// //     messageBox.style.textAlign = "center";
-// //     messageBox.style.borderRadius = "5px";
-// //     messageBox.style.fontWeight = "bold";
+//     messageBox.innerHTML = message;
+//     messageBox.style.padding = "10px";
+//     messageBox.style.marginTop = "10px";
+//     messageBox.style.textAlign = "center";
+//     messageBox.style.borderRadius = "5px";
+//     messageBox.style.fontWeight = "bold";
 
-// //     if (type === "error") {
-// //       messageBox.style.color = "red";
-// //       messageBox.style.background = "#ffdada";
-// //     } else {
-// //       messageBox.style.color = "green";
-// //       messageBox.style.background = "#d4f8d4";
-// //     }
-// //   }
-// // });
-
-
+//     if (type === "error") {
+//       messageBox.style.color = "red";
+//       messageBox.style.background = "#ffdada";
+//     } else {
+//       messageBox.style.color = "green";
+//       messageBox.style.background = "#d4f8d4";
+//     }
+//   }
+// });
 
 
-// // -----------------------------login-page------------------------------------------------------------
+
+
+// -----------------------------login-page------------------------------------------------------------
 
 // document.addEventListener("DOMContentLoaded", function () {
 //   const signInForm = document.getElementById("signin-form");
@@ -434,6 +434,6 @@
 //   }
 // });
 
-// // ----------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 

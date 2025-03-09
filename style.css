@@ -1128,6 +1128,146 @@ height: 100vh !important;
 .teacher-stuff-section{
     width: 100%;
     min-height: 87%;
-  
     overflow: auto; 
+}
+/* ----------------------------------------------admin-dasbord-section------------------------------------------------------ */
+
+.admin-dashbord-section{
+  
+        border: 1px solid rgba(0, 0, 0, 0.26);
+    
+}
+
+.left-dashbord-section {
+    background-color: black;
+}
+.icon-dash{
+    text-align: center;
+    width: 100%;
+}
+
+.accordion{
+    width: 100%;
+  
+    
+}
+
+.accordion-button{
+    border: none !important;
+    color: rgb(0, 0, 0) !important;
+    text-align: center !important;
+   /* padding-left: 20% !important; */
+   font-family: Academy !important;
+   /* border: 1px solid rgba(0, 0, 0, 0.138) !important; */
+}
+
+.accordion-item{
+    background-color: black !important;
+    border: none !important;
+}
+
+
+.bi-buildings-fill{
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+/* .bi-buildings-fill:hover{
+
+} */
+
+.bi-journal-bookmark-fill{
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.bi-people{
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.bi-columns-gap{
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+
+.bi-list{
+    margin-right: 10px;
+    font-size:17px; 
+}
+
+.bi-person-lock{
+    margin-right: 10px;
+    font-size:18px; 
+}
+
+.bi-speedometer{
+    margin-right: 10px;
+    font-size:18px; 
+}
+
+.accordion-body{
+    background-color: whitesmoke;
+}
+
+
+
+.card-text{
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.138);
+    
+}
+
+.card-text a{
+    text-decoration: none;
+    color:black;
+    font-family: Academy;
+    font-size: 14px;
+    text-align: center;
+    /* padding-left: 20% !important; */
+
+}
+
+.change-pass {
+    border: none;
+    width: 100%;
+    background-color: white;
+    padding-left: 18px;
+    padding-right: 9px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    /* border: 1px solid rgba(0, 0, 0, 0.138);
+     */
+   
+   
+}
+
+.change-pass a{
+    text-decoration: none !important;
+    color: black;
+      font-family: Academy ;    
+}
+
+.display-text{
+    background-color:white;
+}
+
+.bottom-ras-section{
+    background-color: whitesmoke;
+}
+
+.btn-out{
+    font-size: 18px;
+    background-color: white;
+    color:black;
+    font-family: Academy;
+    border: none;
+    transition: .2s all linear;
+}
+
+.btn-out:hover{
+    color: white;
+    background-color: #87cefa;
+    transition: .2s all linear;
 }
